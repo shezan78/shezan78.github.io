@@ -9,3 +9,7 @@ header h1 {
   color: black;
   text-transform: uppercase;
 }
+
+header:nth-child(2) {
+  height: 50vh;
+}
