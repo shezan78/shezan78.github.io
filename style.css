@@ -1,23 +1,13 @@
-.header1 {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-}
-
-.header1 h1 {
-  color: black;
-  text-transform: uppercase;
-}
-
-.header2 {
+.header1, .header2 {
   display: flex;
   align-items: center;
   height: 50vh;
   justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
-.header2 h1 {
+.header1 h1, .header2 h1 {
   color: black;
   text-transform: uppercase;
 }
